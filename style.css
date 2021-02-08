@@ -1,0 +1,66 @@
+button {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    cursor: url(govern.png), pointer;
+}
+
+html {
+    background-color: purple;
+    background-size: cover;
+}
+
+p {
+    display: inline;
+    justify-content: space-evenly;
+    color: white;
+}
+
+body {
+    height: 700px;
+    width: 1350px;
+}
+
+div {
+    display: inline-flex;
+    height: 250px;
+    width: 250px;
+}
+
+#star {
+    background: url(flag/star.png);
+    background-size: cover;
+}
+
+#line {
+    background: url(flag/line.jpg);
+}
+
+#nixonButton {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    border: none;
+}
+
+#governButton {
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+    border: none;
+    cursor: url("flag/govern\ \(1\).png"), pointer;
+}
+
+#voteButton {
+    position: absolute;
+    top: 585px;
+    left: 640px;
+    border: none;
+    cursor: default;
+    height: 50px;
+    width: 100px;
+    background: red;
+    font-size: medium;
+}
